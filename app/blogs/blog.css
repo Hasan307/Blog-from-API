@@ -1,0 +1,56 @@
+
+
+.maincontainer{
+
+display: grid;
+place-items:center;
+
+}
+.container11{
+    margin-top: 30px;
+    padding-top: 90px;
+    width: 1080px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    border-radius: 100px 0px 100px 0px;
+
+}
+
+
+
+.section11{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+    padding: 20px;
+
+    
+}
+
+
+
+.bloghero{
+    font-family: 'Franklin Gothic Medium';
+    font-size:40px;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+.title11{
+    font-weight:800;
+    color:#c98d00;
+    transition: font-size 0.4s;
+
+}
+.title11:hover{
+    position:absolute;
+    font-size:20px;
+    color:#c98d00;
+    background-color: white;
+
+}
+
+
+

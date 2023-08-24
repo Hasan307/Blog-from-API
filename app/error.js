@@ -4,7 +4,7 @@ import React from 'react';
 const error = () => {
     return (
         <div class="text-center py-48 text-lg">
-            Sorry i Fucked it up
+            Sorry Error Occured
         </div>
     );
 };

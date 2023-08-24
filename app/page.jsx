@@ -26,6 +26,13 @@ export default async function Home() {
       </div>
 
      
+     <div class="title1">
+      <div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      </div>Latest Blogs<div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        </div>
+     </div>
 
       <div class="bbd">
       <div class="posts">

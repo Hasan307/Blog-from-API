@@ -19,7 +19,7 @@
 body {
   color: white;
 
-  background-color: black;
+  background-color: #121013;
   box-sizing: border-box;
  
 }
@@ -32,7 +32,6 @@ body {
 }
 
 .posts{
-  margin-top:600px;
   display: grid;
   grid-template-columns: repeat(5, 200px);
   grid-gap: 40px;
@@ -51,6 +50,7 @@ body {
     width: 200px;
     padding: 20px;
     font-size:15px;
+    transition: width 1s;
 
 }
 
@@ -90,6 +90,31 @@ body {
   margin-top: 0px;
   width: 100%;
   z-index: -111111;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.title1{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:arial;
+  font-size: 50px;
+  font-weight: 50px;
+  margin-top:350px;
+  width:100%;
+  padding:20px;
+  background-color:rgb( 42, 4, 75 , 0.3);
+
+}
+
+
+.footer {
+    
+  left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 

@@ -1,0 +1,79 @@
+
+.container{
+
+display: flex;
+text-align: left;
+justify-content: left;
+
+}
+
+
+.bolgposts{
+
+    width: 250px;
+    font-size:13px;
+
+}
+
+@keyframes color {
+    from {background-color: white}
+    to {background-color: yellow;}
+  }
+
+  @keyframes font {
+    from {font-size:13px;}
+    to {font-size:14px;}
+  }
+
+.bolgposts:hover{
+
+    width: 250px;
+    text-shadow: 4px 4px 8px black ;;
+    font-size:14px;
+    animation-name: color;
+    animation-name: font;
+    animation-duration: 1s;
+}
+
+
+
+.Section1{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 40px;
+    padding: 20px;
+
+}
+
+
+.postimage img{
+
+    
+   
+
+
+}
+
+
+.posttitle{
+    padding:20px;
+    font-size:20px;
+    background-color:rgb(39, 33, 71);
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+
+.postdetails{
+
+
+padding: 20px;
+font-size: 12px;
+
+}
+.sideposts{
+    background-color:rgb(39, 33, 71);
+    height:1000px;
+    padding:20px;
+    border-left: solid #fff;
+}
